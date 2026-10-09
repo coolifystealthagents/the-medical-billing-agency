@@ -1,0 +1,765 @@
+{
+  "dir": "the-medical-billing-agency",
+  "domain": "themedicalbillingagency.com",
+  "brand": "The Medical Billing Agency",
+  "short": "Medical Billing Agency",
+  "variant": "clinical",
+  "colors": [
+    "#073f46",
+    "#f7fbfb",
+    "#127bc1",
+    "#39c6c8"
+  ],
+  "fontDisplay": "Trebuchet MS",
+  "fontBody": "Verdana",
+  "hero": "exec-c30417ad-6a93-4779-b771-3502a0f8d967.png",
+  "mark": "flow",
+  "eyebrow": "Clinical revenue cycle support",
+  "headline": "Give claims and payment workflows a clearer operating rhythm.",
+  "intro": "Remote administrative support for claim preparation, payment posting, follow-up queues, and patient account workflows. Your practice and qualified professionals retain clinical, coding, compliance, and financial authority.",
+  "audience": "medical practices, billing leaders, and revenue cycle teams",
+  "noun": "claim",
+  "plural": "claims",
+  "disclaimer": "Support staff follow your approved procedures. They do not provide medical advice, legal advice, certified coding opinions, compliance determinations, or payment guarantees.",
+  "services": [
+    [
+      "Claims preparation support",
+      "Organize claim information, validate administrative fields, and queue exceptions for review."
+    ],
+    [
+      "Payment posting support",
+      "Post approved remittance information and surface mismatches for authorized review."
+    ],
+    [
+      "Denial queue coordination",
+      "Categorize denial work, maintain follow-up queues, and route issues to qualified owners."
+    ],
+    [
+      "Eligibility workflow support",
+      "Coordinate approved eligibility checks and document responses in the practice workflow."
+    ],
+    [
+      "Patient account support",
+      "Handle approved administrative messages, balance questions, and callback routing."
+    ],
+    [
+      "Aging report support",
+      "Maintain follow-up worklists and document activity without promising collection outcomes."
+    ],
+    [
+      "Provider enrollment admin support",
+      "Track forms, status requests, and document checklists under practice direction."
+    ]
+  ],
+  "blog": [
+    [
+      "medical-billing-workflow",
+      "Medical billing workflow: a practical operating guide",
+      "Revenue cycle",
+      "A clear map for organizing claim preparation, exception handling, and payment follow-up."
+    ],
+    [
+      "denial-follow-up-queue",
+      "How to organize a denial follow-up queue",
+      "Claims operations",
+      "A practical way to separate research, corrections, payer contact, and internal review."
+    ],
+    [
+      "fractional-revenue-cycle-manager-vs-medical-billing-va",
+      "Fractional revenue cycle manager vs medical billing VA",
+      "Role comparisons",
+      "A careful comparison of leadership responsibilities and administrative billing support."
+    ],
+    [
+      "payment-posting-controls",
+      "Payment posting controls for cleaner account records",
+      "Payment workflows",
+      "A control-focused guide to approved posting, variance review, and escalation."
+    ],
+    [
+      "patient-account-communication",
+      "Patient account communication with clearer boundaries",
+      "Patient accounts",
+      "A respectful framework for administrative account conversations and qualified escalation."
+    ]
+  ],
+  "clusters": {
+    "Claim flow": [
+      "claim intake map",
+      "claim readiness review",
+      "submission queue controls",
+      "claim exception routing",
+      "claim status documentation"
+    ],
+    "Payment operations": [
+      "remittance posting map",
+      "payment variance review",
+      "adjustment approval trail",
+      "deposit reconciliation support",
+      "payment queue quality"
+    ],
+    "Denial workflow": [
+      "denial category map",
+      "appeal packet coordination",
+      "payer follow-up log",
+      "denial owner routing",
+      "denial trend review"
+    ],
+    "Patient accounts": [
+      "account inquiry routing",
+      "approved message library",
+      "balance review queue",
+      "callback coordination",
+      "patient account documentation"
+    ]
+  },
+  "source": "https://www.cms.gov/medicare/coding-billing",
+  "bookingUrl": "https://go.oncehub.com/StealthAgentsTeam?brdr=1pxd8d8d8&dt=&em=1&Si=1",
+  "research": [
+    {
+      "slug": "claim-intake-map",
+      "title": "Claim intake map research brief",
+      "cluster": "Claim flow",
+      "topic": "claim intake map",
+      "publishedAt": "2026-09-02",
+      "sourceCount": 11,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for claim intake map.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "11 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make claim intake map easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "claim-readiness-review",
+      "title": "Claim readiness review research brief",
+      "cluster": "Claim flow",
+      "topic": "claim readiness review",
+      "publishedAt": "2026-09-03",
+      "sourceCount": 12,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for claim readiness review.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "12 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make claim readiness review easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "submission-queue-controls",
+      "title": "Submission queue controls research brief",
+      "cluster": "Claim flow",
+      "topic": "submission queue controls",
+      "publishedAt": "2026-09-04",
+      "sourceCount": 13,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for submission queue controls.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "13 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make submission queue controls easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "claim-exception-routing",
+      "title": "Claim exception routing research brief",
+      "cluster": "Claim flow",
+      "topic": "claim exception routing",
+      "publishedAt": "2026-09-05",
+      "sourceCount": 14,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for claim exception routing.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "14 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make claim exception routing easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "claim-status-documentation",
+      "title": "Claim status documentation research brief",
+      "cluster": "Claim flow",
+      "topic": "claim status documentation",
+      "publishedAt": "2026-09-06",
+      "sourceCount": 15,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for claim status documentation.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "15 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make claim status documentation easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "remittance-posting-map",
+      "title": "Remittance posting map research brief",
+      "cluster": "Payment operations",
+      "topic": "remittance posting map",
+      "publishedAt": "2026-09-07",
+      "sourceCount": 10,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for remittance posting map.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "10 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make remittance posting map easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "payment-variance-review",
+      "title": "Payment variance review research brief",
+      "cluster": "Payment operations",
+      "topic": "payment variance review",
+      "publishedAt": "2026-09-08",
+      "sourceCount": 11,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for payment variance review.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "11 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make payment variance review easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "adjustment-approval-trail",
+      "title": "Adjustment approval trail research brief",
+      "cluster": "Payment operations",
+      "topic": "adjustment approval trail",
+      "publishedAt": "2026-09-09",
+      "sourceCount": 12,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for adjustment approval trail.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "12 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make adjustment approval trail easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "deposit-reconciliation-support",
+      "title": "Deposit reconciliation support research brief",
+      "cluster": "Payment operations",
+      "topic": "deposit reconciliation support",
+      "publishedAt": "2026-09-10",
+      "sourceCount": 13,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for deposit reconciliation support.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "13 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make deposit reconciliation support easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "payment-queue-quality",
+      "title": "Payment queue quality research brief",
+      "cluster": "Payment operations",
+      "topic": "payment queue quality",
+      "publishedAt": "2026-09-11",
+      "sourceCount": 14,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for payment queue quality.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "14 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make payment queue quality easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "denial-category-map",
+      "title": "Denial category map research brief",
+      "cluster": "Denial workflow",
+      "topic": "denial category map",
+      "publishedAt": "2026-09-12",
+      "sourceCount": 15,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for denial category map.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "15 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make denial category map easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "appeal-packet-coordination",
+      "title": "Appeal packet coordination research brief",
+      "cluster": "Denial workflow",
+      "topic": "appeal packet coordination",
+      "publishedAt": "2026-09-13",
+      "sourceCount": 10,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for appeal packet coordination.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "10 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make appeal packet coordination easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "payer-follow-up-log",
+      "title": "Payer follow-up log research brief",
+      "cluster": "Denial workflow",
+      "topic": "payer follow-up log",
+      "publishedAt": "2026-09-14",
+      "sourceCount": 11,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for payer follow-up log.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "11 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make payer follow-up log easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "denial-owner-routing",
+      "title": "Denial owner routing research brief",
+      "cluster": "Denial workflow",
+      "topic": "denial owner routing",
+      "publishedAt": "2026-09-15",
+      "sourceCount": 12,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for denial owner routing.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "12 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make denial owner routing easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "denial-trend-review",
+      "title": "Denial trend review research brief",
+      "cluster": "Denial workflow",
+      "topic": "denial trend review",
+      "publishedAt": "2026-09-16",
+      "sourceCount": 13,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for denial trend review.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "13 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make denial trend review easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "account-inquiry-routing",
+      "title": "Account inquiry routing research brief",
+      "cluster": "Patient accounts",
+      "topic": "account inquiry routing",
+      "publishedAt": "2026-09-17",
+      "sourceCount": 14,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for account inquiry routing.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "14 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make account inquiry routing easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "approved-message-library",
+      "title": "Approved message library research brief",
+      "cluster": "Patient accounts",
+      "topic": "approved message library",
+      "publishedAt": "2026-09-18",
+      "sourceCount": 15,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for approved message library.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "15 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make approved message library easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "balance-review-queue",
+      "title": "Balance review queue research brief",
+      "cluster": "Patient accounts",
+      "topic": "balance review queue",
+      "publishedAt": "2026-09-19",
+      "sourceCount": 10,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for balance review queue.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "10 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make balance review queue easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "callback-coordination",
+      "title": "Callback coordination research brief",
+      "cluster": "Patient accounts",
+      "topic": "callback coordination",
+      "publishedAt": "2026-09-20",
+      "sourceCount": 11,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for callback coordination.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "11 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make callback coordination easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "patient-account-documentation",
+      "title": "Patient account documentation research brief",
+      "cluster": "Patient accounts",
+      "topic": "patient account documentation",
+      "publishedAt": "2026-09-21",
+      "sourceCount": 12,
+      "excerpt": "A transparent claim operations brief that maps five observable workflow indicators for patient account documentation.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "12 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "The Medical Billing Agency reviewed the visible control points that make patient account documentation easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    }
+  ],
+  "legal": {
+    "privacy": "We collect information you choose to submit through our contact form. We use it to respond to your request and operate the consultation workflow. We do not publish submitted information. Infrastructure providers may process data needed to deliver the site and booking experience.",
+    "terms": "This website provides information about administrative support services for medical practices, billing leaders, and revenue cycle teams. Content is general information and is not professional advice. Service scope, responsibilities, and commercial terms are discussed privately before any engagement.",
+    "accessibility": "We aim to provide a clear, keyboard-friendly, responsive experience. If you encounter a barrier, email our team so we can help and improve the page."
+  }
+}

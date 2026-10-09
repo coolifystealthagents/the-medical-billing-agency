@@ -1,0 +1,1 @@
+import {NextRequest,NextResponse} from 'next/server';export async function POST(req:NextRequest){const key=req.headers.get('x-revalidate-key');if(!process.env.SITEMAP_REVALIDATE_KEY||key!==process.env.SITEMAP_REVALIDATE_KEY)return NextResponse.json({ok:false},{status:401});return NextResponse.json({ok:true})}

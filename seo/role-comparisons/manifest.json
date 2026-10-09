@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "preferred": "fractional_vs_va",
+  "launch": "fractional-revenue-cycle-manager-vs-medical-billing-va",
+  "status": "local_verified"
+}
