@@ -1,0 +1,28 @@
+{
+  "site": "TheMedicalBillingAgency",
+  "canonicalDomain": "https://themedicalbillingagency.com",
+  "repository": "coolifystealthagents/the-medical-billing-agency",
+  "branch": "main",
+  "date": "2026-10-12",
+  "blog": [
+    {"slug":"claim-scrub-exception-routing","title":"Claim Scrub Exception Routing","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/claim-scrub-exception-routing.png"},
+    {"slug":"electronic-remittance-posting-control","title":"Electronic Remittance Posting Control","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/electronic-remittance-posting-control.png"},
+    {"slug":"denial-timely-filing-clock","title":"Denial Timely Filing Clock","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/denial-timely-filing-clock.png"},
+    {"slug":"patient-balance-inquiry-triage","title":"Patient Balance Inquiry Triage","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/patient-balance-inquiry-triage.png"},
+    {"slug":"provider-enrollment-renewal-calendar","title":"Provider Enrollment Renewal Calendar","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/provider-enrollment-renewal-calendar.png"},
+    {"slug":"claim-status-touchpoint-log","title":"Claim Status Touchpoint Log","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/claim-status-touchpoint-log.png"},
+    {"slug":"credit-balance-review-worklist","title":"Credit Balance Review Worklist","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/credit-balance-review-worklist.png"},
+    {"slug":"medical-record-request-chain","title":"Medical Record Request Chain","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/medical-record-request-chain.png"},
+    {"slug":"payer-portal-access-recertification","title":"Payer Portal Access Recertification","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/payer-portal-access-recertification.png"},
+    {"slug":"underpayment-variance-intake","title":"Underpayment Variance Intake","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/underpayment-variance-intake.png"},
+    {"slug":"billing-vendor-handoff-register","title":"Billing Vendor Handoff Register","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/billing-vendor-handoff-register.png"},
+    {"slug":"month-end-revenue-cycle-close","title":"Month-End Revenue Cycle Close","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/month-end-revenue-cycle-close.png"}
+  ],
+  "research": [
+    {"slug":"denial-rework-cause-study","title":"Denial Rework Cause Study","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/denial-rework-cause-study.png","sources":10},
+    {"slug":"payment-posting-variance-method","title":"Payment Posting Variance Method","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/payment-posting-variance-method.png","sources":10},
+    {"slug":"claim-follow-up-aging-analysis","title":"Claim Follow-Up Aging Analysis","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/claim-follow-up-aging-analysis.png","sources":10},
+    {"slug":"patient-account-callback-reliability","title":"Patient Account Callback Reliability","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/patient-account-callback-reliability.png","sources":10},
+    {"slug":"payer-access-recertification-evidence","title":"Payer Access Recertification Evidence","sourcePath":"lib/october12.ts","thumbnailPath":"public/images/october-12/payer-access-recertification-evidence.png","sources":10}
+  ]
+}
