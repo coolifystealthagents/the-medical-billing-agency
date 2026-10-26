@@ -111,7 +111,7 @@ export const october26Research = [
       ],
       [
         "Limitations",
-        "The record may be incomplete or delayed. The method cannot infer missing work from a clean summary. Small samples are sensitive to one case; report the instability instead of a precise-looking percentage. Public sources frame recordkeeping and control practice but do not provide a result for this sample. Do not copy a value because it looks familiar. Reopen the source and record what changed. If the rule changes, keep the earlier classification and apply the new rule to later cases. Use a short reason code for each exception. The code should describe the evidence problem, not the person."
+        "The reviewed billing record may be incomplete or delayed, and a clean claim summary cannot prove that every service was captured. A small sample can turn on one denial or one posting correction, so report the instability rather than a precise percentage. Public billing and recordkeeping guidance frames the method but does not supply a result for this sample. Reopen the payer source instead of copying a familiar value, and apply a revised rule only to later cases. Use a reason code that identifies the evidence gap rather than the biller."
       ],
       [
         "Review and next action",
@@ -170,7 +170,7 @@ export const october26Research = [
       ],
       [
         "Evidence and data dictionary",
-        "Each case needs the source, the time observed, the field supported, and the reviewer. Mark missing, unavailable, and confirmed negative values separately. Use a pseudonymous key and keep the identity crosswalk in an approved system. Record the source version so a later reviewer can tell what was known at the first action. When evidence is unavailable, record that state instead of leaving a blank. Missing and confirmed negative are different. Write the next action with an owner and a time. \"Review the exception\" is not a next action; a named person checking a named source by a stated time is. Close the loop with the requester. Internal completeness without confirmation is only half closed. Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine."
+        "Each medical billing case needs the payer source, observation time, field supported, and reviewer. Code missing, unavailable, and confirmed-negative values separately. Use a pseudonymous claim key and keep the identity crosswalk in an approved system. Record the source version so a later reviewer can tell what was known at the first action. When a payer document is unavailable, record that state rather than a blank; write the next action to a named biller with a due time; and close the loop with the requester after the billing owner confirms the result. Include backup coverage for leave and time-zone gaps."
       ],
       [
         "Sampling",
@@ -237,7 +237,7 @@ export const october26Research = [
       ],
       [
         "Definitions",
-        "Write the start event, the stop event, the pause rule, and the treatment of missing evidence. Define the primary measure and one supporting measure. Use the same definitions for every case. If a definition changes, keep the earlier classification and apply the new rule only to later cases. When evidence is unavailable, record that state instead of leaving a blank. Missing and confirmed negative are different. Write the next action with an owner and a time. \"Review the exception\" is not a next action; a named person checking a named source by a stated time is. Close the loop with the requester. Internal completeness without confirmation is only half closed. Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine."
+        "Define the billing protocol's start event, stop event, pause rule, and treatment of missing evidence. Choose one primary measure, such as first-pass claim acceptance, and one supporting measure, such as denial rework. Apply the same definitions to every case and keep the earlier classification when a rule changes. If a payer document is unavailable, record that state instead of a blank. Assign the next step to a named biller with a due time, confirm the outcome with the requester, and write backup coverage for leave and time-zone gaps into the routine."
       ],
       [
         "Evidence and data dictionary",
@@ -257,7 +257,7 @@ export const october26Research = [
       ],
       [
         "Review and next action",
-        "Name the owner who will read the result and set a review date. Choose one action: fix the source, simplify the field, change the queue, or pause the work until the owner decides. Repeat the protocol after the change and report what moved and what remains unknown. Do not copy a value because it looks familiar. Reopen the source and record what changed. If the rule changes, keep the earlier classification and apply the new rule to later cases. Use a short reason code for each exception. The code should describe the evidence problem, not the person."
+        "Name the billing manager who will read the result and set a review date. Choose one action: repair the payer source, simplify the claim field, change the denial queue, or pause the work until the owner decides. Repeat the protocol after the change and report what moved and what remains unknown. Reopen the payer record instead of copying a familiar value, apply a revised rule only to later cases, and use a reason code that describes the evidence gap rather than the biller."
       ]
     ],
     "sources": [
@@ -328,7 +328,7 @@ export const october26Research = [
       ],
       [
         "Review and next action",
-        "Name the owner who will read the result and set a review date. Choose one action: fix the source, simplify the field, change the queue, or pause the work until the owner decides. Repeat the protocol after the change and report what moved and what remains unknown. Write the next action with an owner and a time. \"Review the exception\" is not a next action; a named person checking a named source by a stated time is. Close the loop with the requester. Internal completeness without confirmation is only half closed. Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine."
+        "Name the billing manager who will read the result and set a review date. Choose one action: repair the payer source, simplify the claim field, change the denial queue, or pause the work until the owner decides. Repeat the protocol and report what moved and what remains unknown. Give the next step to a named biller with a due time, close the loop with the requester after the owner confirms, and write backup coverage for leave and time-zone gaps into the billing calendar."
       ]
     ],
     "sources": [

@@ -176,7 +176,7 @@ export const october26Blog = [
         },
         {
           "heading": "Recover cleanly when the control fails",
-          "body": "Define a recovery path for missing sources, wrong owners, stale versions, and partial updates. The path should stop dependent work until the record is safe. Preserve the original request and the correction. Do not overwrite the first value to make the history look consistent. If the failure affects pay, safety, access, legal, or a customer promise, route it to the owner immediately. Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine. When evidence is unavailable, record that state instead of leaving a blank. Missing and confirmed negative are different."
+          "body": "Use a claim-recovery path when an eligibility file, denial letter, payment posting, or patient statement lacks a defensible source. Pause claim release or statement send until the billing manager reviews the record. Preserve the first note and the correction, and assign the follow-up to a named billing specialist with a due date. A request to check the denial is not a next action; the owner needs the exact payer portal, the document version, and the person who will confirm the outcome. Write backup coverage for leave and time-zone gaps into the billing calendar."
         },
         {
           "heading": "Verify, review, and improve",
@@ -220,7 +220,7 @@ export const october26Blog = [
         },
         {
           "heading": "Recover cleanly when the control fails",
-          "body": "Define a recovery path for missing sources, wrong owners, stale versions, and partial updates. The path should stop dependent work until the record is safe. Preserve the original request and the correction. Do not overwrite the first value to make the history look consistent. If the failure affects pay, safety, access, legal, or a customer promise, route it to the owner immediately. Write the next action with an owner and a time. \"Review the exception\" is not a next action; a named person checking a named source by a stated time is. Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine."
+          "body": "Define a recovery path for missing payer sources, unclear account owners, stale fee schedules, and partial updates. Stop dependent billing work until the billing manager confirms the record. Preserve the original request and the correction, and never overwrite the first value. If the failure touches reimbursement, patient balance, access, legal, or a customer promise, route it to the owner immediately. Do not reuse a value because it looks familiar; reopen the payer portal and record the change. Give each exception a short code that names the evidence problem, not the person."
         },
         {
           "heading": "Verify, review, and improve",
@@ -344,7 +344,7 @@ export const october26Blog = [
         },
         {
           "heading": "Make decision rights explicit",
-          "body": "The VA can prepare, compare, label, calculate, and route. The named owner decides whether the evidence is enough and what the customer or employee is told. Write the boundary into the task, including the systems the VA may touch and the fields they may change. A complete packet is not approval. The owner decision should be visible in the record, with a time and a scope. Write the next action with an owner and a time. \"Review the exception\" is not a next action; a named person checking a named source by a stated time is. Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine. When evidence is unavailable, record that state instead of leaving a blank. Missing and confirmed negative are different."
+          "body": "Medical billing VAs can prepare, compare, label, calculate, and route claim and payment records. The billing manager decides whether the evidence is sufficient and what the patient or payer is told. Write the boundary into the task, including the systems the VA may use and the fields they may change. A complete packet is not approval; the owner's decision needs a time and a scope in the record. Name a backup biller for leave and time-zone gaps, record unavailable evidence as unavailable, and confirm the close with the requester."
         },
         {
           "heading": "Build a repeatable daily routine",
@@ -352,7 +352,7 @@ export const october26Blog = [
         },
         {
           "heading": "Recover cleanly when the control fails",
-          "body": "Define a recovery path for missing sources, wrong owners, stale versions, and partial updates. The path should stop dependent work until the record is safe. Preserve the original request and the correction. Do not overwrite the first value to make the history look consistent. If the failure affects pay, safety, access, legal, or a customer promise, route it to the owner immediately. When evidence is unavailable, record that state instead of leaving a blank. Missing and confirmed negative are different. Close the loop with the requester. Internal completeness without confirmation is only half closed."
+          "body": "Create a recovery path for missing payer documents, wrong account owners, stale fee schedules, and partial payment posts. Stop dependent claim or statement work until the billing manager confirms the record. Preserve the original request and the correction, and do not overwrite the first value. If the failure affects reimbursement, patient responsibility, access, or a compliance promise, route it immediately. When a document is unavailable, record that state instead of leaving a blank, and close the loop with the requester after the billing owner confirms the next action."
         },
         {
           "heading": "Verify, review, and improve",
@@ -432,7 +432,7 @@ export const october26Blog = [
         },
         {
           "heading": "Make decision rights explicit",
-          "body": "The VA can prepare, compare, label, calculate, and route. The named owner decides whether the evidence is enough and what the customer or employee is told. Write the boundary into the task, including the systems the VA may touch and the fields they may change. A complete packet is not approval. The owner decision should be visible in the record, with a time and a scope. Name a backup owner for leave and time-zone gaps. Coverage should be written into the routine. When evidence is unavailable, record that state instead of leaving a blank. Missing and confirmed negative are different. Close the loop with the requester. Internal completeness without confirmation is only half closed."
+          "body": "Medical billing VAs may gather eligibility responses, compare remittance advice, label denial reasons, calculate patient responsibility, and route the packet. The billing manager or compliance owner decides whether the evidence supports a claim, refund, write-off, or patient statement. Put that boundary in the task template, including the payer portals and fields the VA may touch. A complete packet is not approval; record the owner's decision, scope, and time. Document a named backup for leave and time-zone coverage, and show missing evidence as missing instead of as a confirmed negative."
         },
         {
           "heading": "Build a repeatable daily routine",
@@ -484,7 +484,7 @@ export const october26Blog = [
         },
         {
           "heading": "Recover cleanly when the control fails",
-          "body": "Define a recovery path for missing sources, wrong owners, stale versions, and partial updates. The path should stop dependent work until the record is safe. Preserve the original request and the correction. Do not overwrite the first value to make the history look consistent. If the failure affects pay, safety, access, legal, or a customer promise, route it to the owner immediately. Do not copy a value because it looks familiar. Reopen the source and record what changed. Use a short reason code for each exception. The code should describe the evidence problem, not the person."
+          "body": "Set a claim-recovery path for billing records with absent source documents, unclear owners, superseded payer policy, or partially posted payments. Freeze dependent claim or statement action until the billing manager confirms the record. Keep the original claim note and the correction side by side. If the gap affects reimbursement, patient balance, access, or a compliance promise, route it to the billing owner before anyone touches the ledger. Name a second billing specialist for leave and time-zone coverage, and code an absent document as missing rather than as a negative finding."
         },
         {
           "heading": "Verify, review, and improve",
