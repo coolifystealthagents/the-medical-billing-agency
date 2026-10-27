@@ -8,7 +8,7 @@ import { october26Research } from './october26Research';
 import { october25Research } from './october25Research';
 import { october22Research } from './october22Research';
 
-const october26BlogWithMeta = october26Blog.map((entry: any[]) => {
+const october26BlogWithMeta = october26Blog.map((entry: readonly any[]) => {
   const scan = october26BlogScan.find((item) => item.slug === entry[0]);
   return [
     entry[0],
