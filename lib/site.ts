@@ -27,7 +27,7 @@ const october26BlogWithMeta = october26Blog.map((entry: readonly any[]) => {
 
 export const site = {
   ...data,
-  blog: [...(october28Blog as any[]), ...(october27Blog as any[]), ...october26BlogWithMeta, ...october25Blog, ...october22Blog, ...october12Blog, ...data.blog],
+  blog: [...(october28Blog as readonly any[]), ...(october27Blog as readonly any[]), ...october26BlogWithMeta, ...october25Blog, ...october22Blog, ...october12Blog, ...data.blog],
   research: [...october28Research, ...october27Research, ...october26Research, ...october25Research, ...october22Research, ...october12Research, ...data.research],
 };
 
