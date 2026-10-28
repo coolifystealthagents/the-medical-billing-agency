@@ -30,3 +30,5 @@ export const site = {
   blog: [...(october28Blog as any[]), ...(october27Blog as any[]), ...october26BlogWithMeta, ...october25Blog, ...october22Blog, ...october12Blog, ...data.blog],
   research: [...october28Research, ...october27Research, ...october26Research, ...october25Research, ...october22Research, ...october12Research, ...data.research],
 };
+
+// cache-bust: 2026-10-28 batch wiring
