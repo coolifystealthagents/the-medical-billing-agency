@@ -13,6 +13,8 @@ import { october25Research } from './october25Research';
 import { october22Research } from './october22Research';
 import { november2Blog } from './november2Blog';
 import { november2Research } from './november2Research';
+import { november4Blog } from './november4Blog';
+import { november4Research } from './november4Research';
 import { november3Blog } from './november3Blog';
 import { november3Research } from './november3Research';
 
