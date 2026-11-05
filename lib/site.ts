@@ -17,6 +17,8 @@ import { november4Blog } from './november4Blog';
 import { november4Research } from './november4Research';
 import { november3Blog } from './november3Blog';
 import { november3Research } from './november3Research';
+import { november5Blog } from './blog-november5';
+import { november5Research } from './research-november5';
 
 const october26BlogWithMeta = october26Blog.map((entry: readonly any[]) => {
   const scan = october26BlogScan.find((item) => item.slug === entry[0]);
@@ -31,10 +33,14 @@ const october26BlogWithMeta = october26Blog.map((entry: readonly any[]) => {
   ];
 });
 
+const november5BlogRows = november5Blog.map((entry) => [
+  entry.slug, entry.title, entry.service, entry.description, entry.details, entry.image, entry.published,
+]);
+
 export const site = {
   ...data,
-  blog: [...(november3Blog as readonly any[]), ...(november2Blog as readonly any[]), ...(october28Blog as readonly any[]), ...(october27Blog as readonly any[]), ...october26BlogWithMeta, ...october25Blog, ...october22Blog, ...october12Blog, ...data.blog],
-  research: [...november3Research, ...november2Research, ...october28Research, ...october27Research, ...october26Research, ...october25Research, ...october22Research, ...october12Research, ...data.research],
+  blog: [...(november5BlogRows as readonly any[]), ...(november3Blog as readonly any[]), ...(november2Blog as readonly any[]), ...(october28Blog as readonly any[]), ...(october27Blog as readonly any[]), ...october26BlogWithMeta, ...october25Blog, ...october22Blog, ...october12Blog, ...data.blog],
+  research: [...november5Research, ...november3Research, ...november2Research, ...october28Research, ...october27Research, ...october26Research, ...october25Research, ...october22Research, ...october12Research, ...data.research],
 };
 
 // cache-bust: 2026-10-28 batch wiring
