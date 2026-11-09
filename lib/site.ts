@@ -25,6 +25,8 @@ import { november7Blog } from './blog-november7';
 import { november7Research } from './research-november7';
 import { november8Blog } from './blog-november8';
 import { november8Research } from './research-november8';
+import { november9Blog } from './blog-november9';
+import { november9Research } from './research-november9';
 
 const october26BlogWithMeta = october26Blog.map((entry: readonly any[]) => {
   const scan = october26BlogScan.find((item) => item.slug === entry[0]);
@@ -55,10 +57,14 @@ const november8BlogRows = november8Blog.map((entry) => [
   entry.slug, entry.title, entry.service, entry.description, entry.details, entry.image, entry.published,
 ]);
 
+const november9BlogRows = november9Blog.map((entry) => [
+  entry.slug, entry.title, entry.service, entry.description, entry.details, entry.image, entry.published,
+]);
+
 export const site = {
   ...data,
-  blog: [...(november8BlogRows as readonly any[]), ...(november7BlogRows as readonly any[]), ...(november6BlogRows as readonly any[]), ...(november5BlogRows as readonly any[]), ...(november3Blog as readonly any[]), ...(november2Blog as readonly any[]), ...(october28Blog as readonly any[]), ...(october27Blog as readonly any[]), ...october26BlogWithMeta, ...october25Blog, ...october22Blog, ...october12Blog, ...data.blog],
-  research: [...november8Research, ...november7Research, ...november6Research, ...november5Research, ...november3Research, ...november2Research, ...october28Research, ...october27Research, ...october26Research, ...october25Research, ...october22Research, ...october12Research, ...data.research],
+  blog: [...(november9BlogRows as readonly any[]), ...(november8BlogRows as readonly any[]), ...(november7BlogRows as readonly any[]), ...(november6BlogRows as readonly any[]), ...(november5BlogRows as readonly any[]), ...(november3Blog as readonly any[]), ...(november2Blog as readonly any[]), ...(october28Blog as readonly any[]), ...(october27Blog as readonly any[]), ...october26BlogWithMeta, ...october25Blog, ...october22Blog, ...october12Blog, ...data.blog],
+  research: [...november9Research, ...november8Research, ...november7Research, ...november6Research, ...november5Research, ...november3Research, ...november2Research, ...october28Research, ...october27Research, ...october26Research, ...october25Research, ...october22Research, ...october12Research, ...data.research],
 };
 
-// cache-bust: 2026-11-08 batch wiring
+// cache-bust: 2026-11-09 batch wiring
