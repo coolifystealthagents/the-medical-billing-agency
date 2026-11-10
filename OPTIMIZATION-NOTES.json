@@ -1,0 +1,10 @@
+{
+  "scope": "Commercial routes, navigation, service detail, licensed photographs. Existing article interiors, reviews and lead delivery handlers preserved.",
+  "validation": {
+    "production_build": "passed",
+    "built_commercial_routes": "13 routes: single H1, description, canonical, local image assets, service destinations verified",
+    "repository_qa": "Existing prohibited-dash findings in unchanged article sources and/or lead-fallback source; see baseline files. No new findings in edited commercial files."
+  },
+  "photography_manifest": "SERVICE-PHOTOGRAPHY.json",
+  "production_visual_check": "Pending deployment"
+}

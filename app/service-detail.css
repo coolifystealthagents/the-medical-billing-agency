@@ -1,0 +1,37 @@
+
+/* Commercial service pages: balanced photography, compact grouped information. */
+.service-detail { --sd-line: color-mix(in srgb,var(--ink,#16382d) 18%,transparent); }
+.sd-hero { padding:48px 0; background:color-mix(in srgb,var(--paper,#f5f7f2) 85%,white); }
+.sd-hero-grid { display:grid; grid-template-columns:1.05fr 1fr; gap:48px; align-items:center; }
+.sd-crumbs { display:flex; gap:12px; font-size:.8rem; margin-bottom:22px; }
+.sd-hero h1 { font:500 clamp(2.25rem,4vw,3.65rem)/1.08 var(--display,Georgia); letter-spacing:-.025em; margin:10px 0 18px; }
+.sd-lead { font-size:1.1rem; line-height:1.65; max-width:54ch; }
+.sd-actions { display:flex; flex-wrap:wrap; gap:18px; align-items:center; margin-top:24px; font-size:.88rem; }
+.sd-photo { margin:0; height:410px; overflow:hidden; border-radius:12px; }
+.sd-photo img { width:100%; height:100%; object-fit:cover; }
+.sd-section { padding-block:48px; }
+.sd-section + .sd-section { border-top:1px solid var(--sd-line); }
+.sd-section-title { margin-bottom:28px; max-width:760px; }
+.service-detail h2 { font:500 clamp(1.8rem,2.7vw,2.65rem)/1.15 var(--display,Georgia); letter-spacing:-.02em; margin:8px 0 18px; }
+.service-detail h3 { font:600 1.18rem/1.3 var(--display,Georgia); margin:0 0 14px; }
+.sd-columns { display:grid; grid-template-columns:1fr 1fr; gap:48px; }
+.service-detail p,.service-detail li { font-size:1rem; line-height:1.7; }
+.service-detail ul { padding-left:21px; margin:0; }
+.service-detail li { padding:7px 0 7px 4px; }
+.sd-output,.sd-tools { padding:28px; background:color-mix(in srgb,var(--paper,#eef5ee) 65%,white); border:1px solid var(--sd-line); border-radius:10px; }
+.sd-output p { border-top:1px solid var(--sd-line); margin:18px 0 0; padding-top:16px; }
+.sd-example { padding:42px 0; background:color-mix(in srgb,var(--ink,#16382d) 5%,white); border-block:1px solid var(--sd-line); }
+.sd-example .sd-example-copy { margin-top:0; font-size:1.12rem; }
+.sd-example-label { color:var(--muted,#53606a); }
+.sd-faq { display:grid; grid-template-columns:.75fr 1.25fr; gap:48px; }
+.sd-faq details { border-bottom:1px solid var(--sd-line); padding:18px 0; }
+.sd-faq summary { font-weight:700; cursor:pointer; line-height:1.5; }
+.sd-related { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+.sd-related article { border-top:3px solid var(--accent,#3e6a56); padding:22px 0 0; }
+.sd-related a { font-weight:700; font-size:.9rem; }
+.sd-closing { padding:40px 0; color:var(--ink,#16382d); background:color-mix(in srgb,var(--paper,#e9f1e8) 80%,white); border-top:1px solid var(--sd-line); }
+.sd-closing>.wrap { display:grid; grid-template-columns:1fr auto; gap:40px; align-items:center; }
+.sd-closing h2 { max-width:690px; }
+.sd-closing p { margin-bottom:0; }
+.sd-closing .cta,.sd-closing .button { max-width:280px; }
+@media(max-width:850px){.sd-hero-grid,.sd-columns,.sd-faq {grid-template-columns:1fr;gap:26px}.sd-hero{padding:30px 0}.sd-photo{height:320px}.sd-section{padding-block:34px}.sd-related{grid-template-columns:1fr;gap:24px}.sd-closing>.wrap{grid-template-columns:1fr;gap:24px}.sd-output,.sd-tools{padding:24px}.sd-example{padding:32px 0}}

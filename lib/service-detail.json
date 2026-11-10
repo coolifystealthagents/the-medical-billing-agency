@@ -1,0 +1,205 @@
+[
+  {
+    "slug": "claims-preparation-support",
+    "title": "Claims preparation support",
+    "benefit": "Keep administrative claim inputs complete enough for your billing team\u2019s review.",
+    "tasks": [
+      "Compare demographic and payer fields with approved source records",
+      "Track missing administrative information",
+      "Maintain submission worklists and owner assignments",
+      "Route coding or clinical questions to qualified reviewers"
+    ],
+    "deliverables": [
+      "Claim-readiness worklist",
+      "Missing-field report",
+      "Reviewer handoff with source references"
+    ],
+    "prep": [
+      "Approved field checklist",
+      "Access to the practice\u2019s billing workspace",
+      "Coding and clinical escalation contacts"
+    ],
+    "example": "A claim worklist contains an incomplete subscriber field. Support records the missing item and its source, routes the request, and keeps the claim in review until the authorized billing owner confirms readiness.",
+    "faq": [
+      {
+        "question": "Does support select diagnosis or procedure codes?",
+        "answer": "No. Coding choices and clinical interpretation stay with your qualified professionals. Support organizes approved information and flags questions."
+      }
+    ],
+    "photoAlt": "Office professional reviewing a set of documents"
+  },
+  {
+    "slug": "payment-posting-support",
+    "title": "Payment posting support",
+    "benefit": "Keep remittance records and posting exceptions traceable for the billing owner.",
+    "tasks": [
+      "Match approved remittance records to account references",
+      "Enter posting information under documented rules",
+      "Separate unmatched or conflicting items",
+      "Prepare batch totals and exception notes for review"
+    ],
+    "deliverables": [
+      "Posting batch record",
+      "Unmatched-remittance queue",
+      "Reviewable adjustment references"
+    ],
+    "prep": [
+      "Approved remittance sources",
+      "Posting and adjustment rules",
+      "Batch review owner and account access"
+    ],
+    "example": "A remittance line cannot be matched confidently to the approved account record. Support places it in an exception queue with the source reference instead of guessing where to post it.",
+    "faq": [
+      {
+        "question": "Can support approve adjustments or refunds?",
+        "answer": "No. Adjustments, refunds, write-offs, and other financial approvals remain with your authorized practice team."
+      }
+    ],
+    "photoAlt": "Financial documents being checked with a calculator"
+  },
+  {
+    "slug": "denial-queue-coordination",
+    "title": "Denial queue coordination",
+    "benefit": "Give every denial a documented status, next action, and qualified owner.",
+    "tasks": [
+      "Categorize items using your approved denial taxonomy",
+      "Track dates, responses, and assigned reviewers",
+      "Assemble existing records for appeal review",
+      "Maintain unresolved payer follow-up tasks"
+    ],
+    "deliverables": [
+      "Denial worklist by owner",
+      "Payer contact history",
+      "Appeal-review packet index"
+    ],
+    "prep": [
+      "Approved denial categories",
+      "Relevant payer responses and source records",
+      "Reviewer assignments and deadline instructions"
+    ],
+    "example": "A payer response requests additional information. Support adds the response to the record, notes the stated deadline, assembles the available documents, and routes the packet to the qualified reviewer.",
+    "faq": [
+      {
+        "question": "Will this service write or approve clinical appeals?",
+        "answer": "Clinical reasoning and final appeal approval stay with qualified staff. Support can assemble records, track the queue, and document approved follow-up."
+      }
+    ],
+    "photoAlt": "Professional taking a call while using a laptop"
+  },
+  {
+    "slug": "eligibility-workflow-support",
+    "title": "Eligibility workflow support",
+    "benefit": "Keep eligibility responses attached to the correct administrative workflow.",
+    "tasks": [
+      "Run or coordinate checks through approved tools",
+      "Record response dates and reference numbers",
+      "Flag mismatched member or payer information",
+      "Route unclear responses before the team relies on them"
+    ],
+    "deliverables": [
+      "Dated eligibility response log",
+      "Administrative mismatch queue",
+      "Follow-up record for the practice"
+    ],
+    "prep": [
+      "Approved check procedure",
+      "Payer portal or practice-system access",
+      "Escalation rules for unclear responses"
+    ],
+    "example": "An eligibility response names a different plan from the appointment record. Support records both references and routes the mismatch for review without promising coverage to the patient.",
+    "faq": [
+      {
+        "question": "Does an eligibility response guarantee payment?",
+        "answer": "No. Support records the response under your procedure. Your billing team determines the appropriate next step and patient communication."
+      }
+    ],
+    "photoAlt": "Administrative discussion at a healthcare reception desk"
+  },
+  {
+    "slug": "patient-account-support",
+    "title": "Patient account support",
+    "benefit": "Keep routine account inquiries organized and route sensitive questions to the right person.",
+    "tasks": [
+      "Use approved administrative response templates",
+      "Log callback requests and contact preferences",
+      "Route disputed balances and clinical questions",
+      "Keep contact history within the practice\u2019s approved workspace"
+    ],
+    "deliverables": [
+      "Account inquiry log",
+      "Callback queue",
+      "Documented escalation handoff"
+    ],
+    "prep": [
+      "Approved scripts and identity-check procedure",
+      "Authorized account fields",
+      "Named billing and clinical escalation contacts"
+    ],
+    "example": "A patient disputes a statement balance. Support records the concern without interpreting the charge, identifies the approved billing contact, and tracks the callback request to its assigned owner.",
+    "faq": [
+      {
+        "question": "Can staff explain treatment or determine patient liability?",
+        "answer": "No. Clinical explanations and disputed financial determinations remain with your qualified practice team. Support handles the approved administrative steps."
+      }
+    ],
+    "photoAlt": "Support professional handling a call at her workstation"
+  },
+  {
+    "slug": "aging-report-support",
+    "title": "Aging report support",
+    "benefit": "Turn aging reports into organized follow-up worklists with an accountable next step.",
+    "tasks": [
+      "Prepare worklists from approved aging exports",
+      "Group items by owner and review category",
+      "Record contact attempts and source responses",
+      "Highlight unresolved items for billing-team review"
+    ],
+    "deliverables": [
+      "Aging worklist",
+      "Follow-up activity history",
+      "Unresolved-account summary"
+    ],
+    "prep": [
+      "Approved aging report",
+      "Worklist categories and prioritization rules",
+      "Follow-up permissions and review cadence"
+    ],
+    "example": "A weekly export includes accounts with prior follow-up but no next action. Support adds the most recent response reference, identifies the missing owner, and prepares a review list for the billing lead.",
+    "faq": [
+      {
+        "question": "Does this promise a collection result?",
+        "answer": "No. The service improves administrative visibility and follow-up records. Payment outcomes and collection decisions stay outside this support role."
+      }
+    ],
+    "photoAlt": "Financial records being reviewed with a calculator and laptop"
+  },
+  {
+    "slug": "provider-enrollment-admin-support",
+    "title": "Provider enrollment admin support",
+    "benefit": "Keep enrollment forms, source documents, and status requests moving through your approved process.",
+    "tasks": [
+      "Maintain payer-specific document checklists",
+      "Track form versions and missing fields",
+      "Coordinate authorized status requests",
+      "Route signatures and attestations to the provider or practice owner"
+    ],
+    "deliverables": [
+      "Enrollment status tracker",
+      "Document checklist",
+      "Submission and response register"
+    ],
+    "prep": [
+      "Practice-approved payer list",
+      "Provider-supplied source documents",
+      "Authorized signers and submission procedure"
+    ],
+    "example": "A payer asks for a current document during enrollment. Support records the request, confirms who owns the document, and tracks delivery to the authorized submitter without signing on the provider\u2019s behalf.",
+    "faq": [
+      {
+        "question": "Can support attest to provider credentials?",
+        "answer": "No. Providers and authorized practice representatives retain responsibility for attestations, credential accuracy, and final submissions."
+      }
+    ],
+    "photoAlt": "Reception professional in a healthcare office"
+  }
+]

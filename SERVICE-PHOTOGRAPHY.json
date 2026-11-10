@@ -1,0 +1,83 @@
+[
+  {
+    "asset": "/service-photography/home.webp",
+    "pexelsPhotoId": 4269274,
+    "source": "https://www.pexels.com/photo/4269274/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Healthcare staff at a clinic reception desk",
+    "sha256": "fc1239eb438e8cdae1d6eb47614cdc071034cdb2f8ec65995c99e29ee018ed3d",
+    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/service-photography/about.webp",
+    "pexelsPhotoId": 6812434,
+    "source": "https://www.pexels.com/photo/6812434/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Reception professional in a healthcare office",
+    "sha256": "3359beb6e7dd30219ad95425f130399f46479c14050d9fd36ef22e237b5b6945",
+    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/service-photography/claims-preparation-support.webp",
+    "pexelsPhotoId": 7691663,
+    "source": "https://www.pexels.com/photo/7691663/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Office professional reviewing a set of documents",
+    "sha256": "0af91742a914a1e148af15c6de676980744e599f5afd175a79d02fdf53a0a6a5",
+    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/service-photography/payment-posting-support.webp",
+    "pexelsPhotoId": 8296970,
+    "source": "https://www.pexels.com/photo/8296970/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Financial documents being checked with a calculator",
+    "sha256": "ab8522f5df16c7c780bb919bfb753db72c18036211f35583b0b5a7b6fe578654",
+    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/service-photography/denial-queue-coordination.webp",
+    "pexelsPhotoId": 7709091,
+    "source": "https://www.pexels.com/photo/7709091/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Professional taking a call while using a laptop",
+    "sha256": "9bdff7c2c123978138ee1382cce77fd189b9a901375724adf741847aa0e76124",
+    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/service-photography/eligibility-workflow-support.webp",
+    "pexelsPhotoId": 6627864,
+    "source": "https://www.pexels.com/photo/6627864/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Administrative discussion at a healthcare reception desk",
+    "sha256": "92fe1987f0eb61b9e82be862555fe8016ddacdd22f0d1450342452ca4828db9c",
+    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/service-photography/patient-account-support.webp",
+    "pexelsPhotoId": 8866749,
+    "source": "https://www.pexels.com/photo/8866749/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Support professional handling a call at her workstation",
+    "sha256": "88a53fff55f8c8bee2cc9560a37aa78d2c9dba960712290227725926e7f72e33",
+    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/service-photography/aging-report-support.webp",
+    "pexelsPhotoId": 7821708,
+    "source": "https://www.pexels.com/photo/7821708/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Financial records being reviewed with a calculator and laptop",
+    "sha256": "fcae45cf838c5bfe98b5095d9fd0d9007d5ad9307c5b939b504a0d43f3a5de9f",
+    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/service-photography/provider-enrollment-admin-support.webp",
+    "pexelsPhotoId": 6812434,
+    "source": "https://www.pexels.com/photo/6812434/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Reception professional in a healthcare office",
+    "sha256": "3359beb6e7dd30219ad95425f130399f46479c14050d9fd36ef22e237b5b6945",
+    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  }
+]

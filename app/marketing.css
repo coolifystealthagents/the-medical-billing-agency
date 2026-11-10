@@ -1,0 +1,49 @@
+
+/* Main commercial routes share a measured scale, while retaining site colors. */
+.marketing-page .hero { min-height:0; padding:48px 0; }
+.marketing-page .hero-grid { grid-template-columns:1fr 1fr; gap:48px; }
+.marketing-page .hero h1 { font-size:clamp(2.6rem,4.2vw,3.8rem); line-height:1.06; letter-spacing:-.025em; }
+.marketing-page .hero-art { margin:0; order:0; }
+.marketing-page .hero-art img { display:block; height:420px; width:100%; object-fit:cover; border-radius:12px; box-shadow:none; border:0; }
+.marketing-page .hero-actions { display:flex; flex-wrap:wrap; align-items:center; gap:20px; margin-top:24px; }
+.marketing-page .hero-actions>a:not(.cta) { font-size:.9rem; font-weight:700; }
+.marketing-page .section { padding:48px 0; }
+.marketing-heading { max-width:760px; margin-bottom:28px; }
+.marketing-page h2 { font-size:clamp(1.9rem,3vw,2.65rem); line-height:1.16; letter-spacing:-.02em; }
+.marketing-page .service-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:26px; }
+.service-cards article { border:1px solid color-mix(in srgb,var(--ink) 15%,transparent); border-radius:10px; overflow:hidden; background:#fff; color:var(--ink); display:flex; flex-direction:column; }
+.service-card-photo { display:block; }
+.service-card-photo img { width:100%; height:190px; object-fit:cover; display:block; }
+.service-cards article>div { padding:24px; display:flex; flex-direction:column; flex:1; }
+.marketing-page .service-cards h2,.service-cards h3 { font:600 1.3rem/1.25 var(--display); margin:0 0 10px; letter-spacing:0; }
+.service-cards h2 a,.service-cards h3 a { text-decoration:none; }
+.service-cards p,.service-cards li { font-size:.93rem; line-height:1.65; }
+.service-cards p { margin:0 0 18px; }
+.service-cards ul { padding-left:18px; margin:0 0 22px; }
+.service-more { margin-top:auto; font-size:.84rem; font-weight:700; }
+.process-cards { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
+.process-cards article { padding-top:20px; border-top:2px solid var(--accent); }
+.process-cards h3 { font-size:1.2rem; margin:0; }
+.marketing-process { background:color-mix(in srgb,var(--ink) 5%,white); }
+.marketing-split { display:grid; grid-template-columns:1.1fr .9fr; gap:48px; align-items:start; }
+.marketing-split aside { padding:28px; border:1px solid color-mix(in srgb,var(--ink) 18%,transparent); background:#fff; border-radius:10px; }
+.marketing-split aside h3 { margin-top:0; }
+.marketing-split li { padding:6px 0; }
+.marketing-index { padding:44px 0 12px; }
+.marketing-index h1 { font:500 clamp(2.3rem,4vw,3.5rem)/1.1 var(--display); max-width:880px; margin:10px 0; }
+.brand-lockup { margin-right:auto; }
+.powered-by { display:block; margin:5px 0 0 56px; font-size:.66rem; text-decoration:none; }
+.navin { gap:20px; }
+.links { gap:18px; }
+.mobile-nav { display:none; }
+.footer .brand { color:inherit; }
+.footer p { font-size:.88rem; }
+.footer a { text-underline-offset:4px; }
+.boardroom .hero .eyebrow { color:#edc4a8; }
+.boardroom .marketing-process { color:var(--ink); }
+.contact-page .step-card>span { display:none; }
+.contact-page .contact-section { padding-block:48px; }
+.contact-page .contact-hero { min-height:300px; }
+a:focus-visible,summary:focus-visible {outline:3px solid var(--accent);outline-offset:4px}
+@media(max-width:1000px){.links {display:none}.mobile-nav{display:block}.mobile-nav summary{cursor:pointer;padding:10px 14px;border:1px solid currentColor;border-radius:6px;font-size:.9rem;font-weight:700}.mobile-nav nav{position:absolute;top:100%;left:0;right:0;background:var(--bg);padding:20px;display:grid;gap:12px;box-shadow:0 14px 20px #0002;border-bottom:1px solid #aaa5}.mobile-nav nav a{padding:8px;text-decoration:none}.navin{min-height:80px}.marketing-page .hero-grid{grid-template-columns:1fr;gap:28px}.marketing-page .hero-art img{height:340px}.marketing-page .service-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.marketing-page .hero{padding:30px 0}.marketing-page .hero h1{font-size:2.6rem}.marketing-page .hero-art img{height:285px}.marketing-page .section{padding:34px 0}.marketing-page .service-cards,.process-cards,.marketing-split{grid-template-columns:1fr;gap:24px}.brand span{max-width:210px}.powered-by{margin-left:56px}.service-card-photo img{height:205px}.sd-closing{padding:32px 0}.contact-page .contact-section{padding-block:34px}.contact-page .contact-hero{min-height:270px}}
