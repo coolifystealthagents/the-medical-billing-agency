@@ -11,3 +11,6 @@ export default function RootLayout({children}:{children:React.ReactNode}){const 
         /><Script id="motion" strategy="afterInteractive" dangerouslySetInnerHTML={{__html:motion}}/></body></html>}
 
 import "./refinement.css";
+
+import "./contact-fonts.css";
+import "./contact-experience.css";

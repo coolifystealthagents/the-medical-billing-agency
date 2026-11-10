@@ -1,0 +1,90 @@
+/* Cabinet Grotesk */
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/fonts/contact/654986a794c2.woff2') format('woff2'),
+       url('/fonts/contact/815af9833647.woff') format('woff'),
+       url('/fonts/contact/cd655bd6a2ac.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/fonts/contact/e64cfdb4aa4b.woff2') format('woff2'),
+       url('/fonts/contact/60c35380308a.woff') format('woff'),
+       url('/fonts/contact/7d92af388e54.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cabinet Grotesk';
+  src: url('/fonts/contact/203324587b11.woff2') format('woff2'),
+       url('/fonts/contact/17b309ed1d80.woff') format('woff'),
+       url('/fonts/contact/94a8b61292b1.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+
+/* Satoshi */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/contact/172efd8568bb.woff2') format('woff2'),
+       url('/fonts/contact/14a5269618cf.woff') format('woff'),
+       url('/fonts/contact/3a1622e98bd2.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/contact/3cb97074da34.woff2') format('woff2'),
+       url('/fonts/contact/264c7cd3fec7.woff') format('woff'),
+       url('/fonts/contact/38dbbf039264.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/contact/db5934980dd2.woff2') format('woff2'),
+       url('/fonts/contact/e022795f8fa8.woff') format('woff'),
+       url('/fonts/contact/4ff82c4dbfca.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/contact/c2bef016fb9b.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/contact/541119bccb21.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/contact/011cb50bc76b.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Geist';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/contact/e374eee52bb3.ttf) format('truetype');
+}
