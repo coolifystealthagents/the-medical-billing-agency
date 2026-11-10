@@ -16,12 +16,13 @@ export async function POST(request: Request) {
   const companySize = String(form.get('company_size') || '').trim();
   const positions = String(form.get('positions_to_fill') || '').trim();
   const referral = String(form.get('referral_source') || '').trim();
-  if (!/^\S+@\S+\.\S+$/.test(email) || (full ? (!firstName || !lastName || !company || !companySize || !positions || !referral) : !legacyName)) {
+  if (!/^\S+@\S+\.\S+$/.test(email) || (full ? (!firstName || !lastName || !String(form.get("phone")||"").trim() || !company || !companySize || !positions || !referral) : !legacyName)) {
     return NextResponse.json({ ok: false, message: 'Please complete every required field.' }, { status: 400 });
   }
   if (full && personalDomains.has(email.split('@')[1])) {
     return NextResponse.json({ ok: false, message: 'Please use your business email address.' }, { status: 400 });
   }
+  if (full && referral === "Other" && !String(form.get("referral_specify")||"").trim()) return NextResponse.json({ok:false,message:"Please specify how you heard about us."},{status:400});
   const endpoint = process.env.ACR_LEAD_ENDPOINT;
   if (endpoint) {
     const payload = Object.fromEntries(form.entries());
@@ -32,9 +33,9 @@ export async function POST(request: Request) {
   void sendLeadFallbackToMattermost({
     name: [firstName, lastName].filter(Boolean).join(' ') || legacyName,
     email,
-    phone: String(form.get('phone') || ''),
+    phone: [form.get('phone_country'),form.get('phone')].filter(Boolean).join(' '),
     business: company,
-    message: String(form.get('message') || ''),
+    message: [String(form.get('message') || ''),`Website: ${form.get('company_website')||'Not provided'}`,`Appointment reminder consent: ${form.get('sms_consent')||'no'}`,`Referral detail: ${form.get('referral_specify')||''}`].join('\n'),
     companySize,
     positions,
     referral,
