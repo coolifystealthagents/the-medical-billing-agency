@@ -81,3 +81,14 @@ main .reveal { opacity:1!important;transform:none!important; }
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
 footer :is(nav ul,ul){row-gap:8px}footer nav a{line-height:1.6} @media(max-width:650px){footer{padding-block:36px!important}footer :is(.footer-grid,.container,.footer-main){row-gap:28px}footer h3,footer h4{margin-bottom:12px}}
+
+/* Useful homepage detail with balanced columns and no decorative step labels. */
+.home-working-example{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;width:calc(100% - 48px);max-width:1240px;margin:40px auto;padding:36px 0;border-top:1px solid #a6aca650;border-bottom:1px solid #a6aca650;}
+.home-working-example h2{font-size:clamp(27px,2.6vw,36px);line-height:1.2;letter-spacing:-.02em;margin:0 0 18px;}
+.home-working-example p{font-size:16px;line-height:1.75;margin:16px 0;}
+.home-working-example .home-example-label{font-size:12px;font-weight:600;letter-spacing:.05em;margin:0 0 14px;}
+.home-working-example a{text-underline-offset:4px;}
+.home-working-questions details{border-bottom:1px solid #a6aca650;padding:16px 0;}
+.home-working-questions summary{font-size:16px;line-height:1.5;font-weight:600;cursor:pointer;}
+.home-library-links{display:flex;gap:24px;}
+@media(max-width:760px){.home-working-example{grid-template-columns:1fr;width:calc(100% - 32px);gap:30px;margin:28px auto;padding:28px 0;}}

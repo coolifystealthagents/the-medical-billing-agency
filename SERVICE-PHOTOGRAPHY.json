@@ -79,5 +79,14 @@
     "alt": "Reception professional in a healthcare office",
     "sha256": "3359beb6e7dd30219ad95425f130399f46479c14050d9fd36ef22e237b5b6945",
     "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+  },
+  {
+    "asset": "/service-photography/prior-authorization-tracking.webp",
+    "pexelsPhotoId": 6627864,
+    "source": "https://www.pexels.com/photo/6627864/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "Healthcare reception staff coordinating administrative records",
+    "sha256": "778cf7baeaca421caf211400ccbe13cf8904b8a5ca0b0116ede8a945ec412218",
+    "note": "Licensed stock photograph illustrating the service; not company staff."
   }
 ]

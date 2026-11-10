@@ -201,5 +201,34 @@
       }
     ],
     "photoAlt": "Reception professional in a healthcare office"
+  },
+  {
+    "slug": "prior-authorization-tracking",
+    "title": "Prior authorization tracking",
+    "benefit": "Keep authorization requests, payer responses, and pending administrative steps visible to your practice.",
+    "tasks": [
+      "Maintain a tracker from practice-approved authorization requests",
+      "Record submission dates and payer reference numbers",
+      "Follow up on administrative status through approved channels",
+      "Route clinical questions and decision notices to qualified staff"
+    ],
+    "deliverables": [
+      "Authorization status tracker",
+      "Pending-information worklist",
+      "Dated payer response history"
+    ],
+    "prep": [
+      "Approved request list and status workflow",
+      "Authorized portal access and reference records",
+      "Clinical reviewer and escalation contacts"
+    ],
+    "example": "A payer portal shows that a request needs more information. Support records the notice and reference number, alerts the assigned reviewer, and tracks the response without interpreting the clinical requirement or promising coverage.",
+    "faq": [
+      {
+        "question": "Can support decide medical necessity or approve treatment?",
+        "answer": "No. Clinical reasoning, treatment decisions, and payer determinations stay with the responsible professionals. Support tracks administrative status and routes notices for review."
+      }
+    ],
+    "photoAlt": "Healthcare reception staff coordinating administrative records"
   }
 ]

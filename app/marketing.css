@@ -47,3 +47,12 @@
 a:focus-visible,summary:focus-visible {outline:3px solid var(--accent);outline-offset:4px}
 @media(max-width:1000px){.links {display:none}.mobile-nav{display:block}.mobile-nav summary{cursor:pointer;padding:10px 14px;border:1px solid currentColor;border-radius:6px;font-size:.9rem;font-weight:700}.mobile-nav nav{position:absolute;top:100%;left:0;right:0;background:var(--bg);padding:20px;display:grid;gap:12px;box-shadow:0 14px 20px #0002;border-bottom:1px solid #aaa5}.mobile-nav nav a{padding:8px;text-decoration:none}.navin{min-height:80px}.marketing-page .hero-grid{grid-template-columns:1fr;gap:28px}.marketing-page .hero-art img{height:340px}.marketing-page .service-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.marketing-page .hero{padding:30px 0}.marketing-page .hero h1{font-size:2.6rem}.marketing-page .hero-art img{height:285px}.marketing-page .section{padding:34px 0}.marketing-page .service-cards,.process-cards,.marketing-split{grid-template-columns:1fr;gap:24px}.brand span{max-width:210px}.powered-by{margin-left:56px}.service-card-photo img{height:205px}.sd-closing{padding:32px 0}.contact-page .contact-section{padding-block:34px}.contact-page .contact-hero{min-height:270px}}
+
+.services-directory #service-directory{scroll-margin-top:100px;padding-top:16px;}
+.services-directory .service-cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;}
+.services-directory .service-cards article>div{padding:20px;}
+.directory-questions details{padding:18px 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 20%,transparent)}
+.directory-questions summary{font-weight:600;line-height:1.5;cursor:pointer}
+.directory-questions p{line-height:1.7}
+@media(max-width:1100px){.services-directory .service-cards{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:600px){.services-directory .service-cards{grid-template-columns:1fr;}}

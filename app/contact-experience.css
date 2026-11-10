@@ -75,7 +75,7 @@ body:has(.contact-experience) .site-shell-header .site-shell-parent{margin-left:
 .contact-steps{max-width:1200px;margin:0 auto;padding:0;list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-flow:dense;gap:0;counter-reset:steps;}
 .contact-steps li{padding:24px;border-top:1px solid var(--contact-line);border-right:1px solid var(--contact-line);counter-increment:steps;margin:0;}
 .contact-steps li:last-child{border-right:0;}
-.contact-steps li:before{content:counter(steps,decimal-leading-zero);display:block;font:400 36px/1 var(--contact-heading);opacity:.35;margin-bottom:30px;}
+.contact-steps li:before{content:none;}
 .contact-experience .contact-steps h3{font-size:17px;margin-bottom:12px;}
 .contact-experience .contact-steps p{font-size:14px;color:var(--contact-muted);}
 .contact-experience .contact-preparation{max-width:1264px;margin:auto;padding:84px 32px;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
@@ -184,3 +184,16 @@ body:has(.contact-experience) .site-shell-header .site-shell-parent{margin-left:
 @media(max-width:1000px){.contact-experience .booking-email,.contact-experience .booking-phone-field{grid-column:1/-1}}
 
 .contact-experience .booking-fields label:not(.booking-email):not(.booking-consent)>:is(input,select){margin-top:auto}
+
+/* Wide, readable booking fields and tighter section spacing. */
+.contact-experience .booking-email,.contact-experience .booking-phone-field{grid-column:1/-1;}
+.contact-experience .booking-phone{grid-template-columns:145px minmax(0,1fr);}
+.contact-experience .contact-first-inner{max-width:1280px;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;}
+.contact-experience .contact-review-group figure{padding:16px 18px;border:1px solid var(--contact-line);background:color-mix(in srgb,var(--contact-paper) 88%,var(--contact-accent));min-height:156px;}
+.contact-experience .contact-team-section,.contact-experience .contact-next,.contact-experience .contact-starting,.contact-experience .contact-calendar-section{padding-block:48px;}
+.contact-experience .contact-preparation,.contact-experience .contact-authority,.contact-experience .contact-questions{padding-block:48px;}
+.contact-experience .contact-steps li:before{content:none;}
+@media(min-width:1001px) and (max-height:730px){.contact-experience .contact-form-panel{padding:12px 20px}.contact-experience .booking-fields{gap:5px 12px}.contact-experience .booking-fields :is(input:not([type=checkbox]),select){height:30px}.contact-experience .booking-fields textarea{height:38px;min-height:38px}.contact-experience .booking-fields label,.contact-experience .booking-phone-field{gap:3px}.contact-experience .contact-form-panel h2{margin-bottom:8px}.contact-experience .contact-form-panel :is(.booking-note,.form-privacy-disclosure){margin:6px 0}}
+@media(max-width:760px){.contact-experience .contact-first-inner{gap:26px}.contact-experience .booking-phone{grid-template-columns:110px minmax(0,1fr)}.contact-experience .contact-team-section,.contact-experience .contact-next,.contact-experience .contact-starting,.contact-experience .contact-calendar-section,.contact-experience .contact-preparation,.contact-experience .contact-authority,.contact-experience .contact-questions{padding-block:36px}}
+
+.contact-experience .contact-review-group figure{color:#202d32;}
