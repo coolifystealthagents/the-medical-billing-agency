@@ -75,15 +75,15 @@ export const november11Research: ResearchPost[] = [
     ]
   },
   {
-    "slug": "how-often-does-an-eligibility-recheck-change-a-high-cost-claim",
+    "slug": "how-often-does-an-eligibility-recheck-change-a-high-cost-claim-before-submission",
     "title": "How often does an eligibility recheck change a high-cost claim before submission?",
     "cluster": "measurement",
     "topic": "eligibility",
     "publishedAt": "2026-11-11",
     "sourceCount": 4,
     "excerpt": "A measurement protocol for eligibility rechecks on high-cost claims, using one scheduled service as the unit and a documented change as the outcome.",
-    "thumbnail": "/images/november-11/how-often-does-an-eligibility-recheck-change-a-high-cost-claim.webp",
-    "heroImage": "/images/november-11/how-often-does-an-eligibility-recheck-change-a-high-cost-claim.webp",
+    "thumbnail": "/images/november-11/how-often-does-an-eligibility-recheck-change-a-high-cost-claim-before-submission.webp",
+    "heroImage": "/images/november-11/how-often-does-an-eligibility-recheck-change-a-high-cost-claim-before-submission.webp",
     "readingMinutes": 13,
     "keyStats": [
       "The unit is one scheduled high-cost service that received a pre-service recheck.",
