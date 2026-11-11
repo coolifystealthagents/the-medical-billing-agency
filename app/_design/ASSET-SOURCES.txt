@@ -1,0 +1,4 @@
+Photography: existing documented assets in /service-photography; see SERVICE-PHOTOGRAPHY.json. Team image: existing official StealthAgents Bacolod photograph in /brand/team-bacolod.jpg.
+Fonts self-hosted from official Fontshare / Google Fonts sources:
+https://cdn.fontshare.com/wf/TTX2Z3BF3P6Y5BQT3IV2VNOK6FL22KUT/7QYRJOI3JIMYHGY6CH7SOIFRQLZOLNJ6/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2
+https://cdn.fontshare.com/wf/LAFFD4SDUCDVQEXFPDC7C53EQ4ZELWQI/PXCT3G6LO6ICM5I3NTYENYPWJAECAWDD/GHM6WVH6MILNYOOCXHXB5GTSGNTMGXZR.woff2
