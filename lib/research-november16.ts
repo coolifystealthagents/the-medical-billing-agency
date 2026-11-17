@@ -8,7 +8,7 @@ export const november16ResearchPosts: ResearchPost[] = [
     "publishedAt": "2026-11-16",
     "sourceCount": 4,
     "excerpt": "A local measurement protocol for returned patient statements, using one mailed statement as the unit, a postal reason code, and explicit limits for billing teams.",
-    "thumbnail": "/thumbnails/november-16/how-many-patient-statements-are-returned-as-undeliverable.webp",
+    "thumbnail": "/images/research/november-16/how-many-patient-statements-are-returned-as-undeliverable.webp",
     "heroImage": "/images/research/november-16/how-many-patient-statements-are-returned-as-undeliverable.webp",
     "readingMinutes": 13,
     "keyStats": [
@@ -81,7 +81,7 @@ export const november16ResearchPosts: ResearchPost[] = [
     "publishedAt": "2026-11-16",
     "sourceCount": 4,
     "excerpt": "A measurement protocol for eligibility rechecks on high-cost claims, using one scheduled service as the unit and a documented change as the outcome.",
-    "thumbnail": "/thumbnails/november-16/how-often-does-an-eligibility-recheck-change-a-high-cost-claim.webp",
+    "thumbnail": "/images/research/november-16/how-often-does-an-eligibility-recheck-change-a-high-cost-claim.webp",
     "heroImage": "/images/research/november-16/how-often-does-an-eligibility-recheck-change-a-high-cost-claim.webp",
     "readingMinutes": 13,
     "keyStats": [
@@ -154,7 +154,7 @@ export const november16ResearchPosts: ResearchPost[] = [
     "publishedAt": "2026-11-16",
     "sourceCount": 4,
     "excerpt": "A measurement protocol for paper remittances, using one payer payment as the unit and a payment-method classification with clear limits.",
-    "thumbnail": "/thumbnails/november-16/how-many-remittances-still-arrive-as-paper-checks.webp",
+    "thumbnail": "/images/research/november-16/how-many-remittances-still-arrive-as-paper-checks.webp",
     "heroImage": "/images/research/november-16/how-many-remittances-still-arrive-as-paper-checks.webp",
     "readingMinutes": 13,
     "keyStats": [
@@ -227,7 +227,7 @@ export const november16ResearchPosts: ResearchPost[] = [
     "publishedAt": "2026-11-16",
     "sourceCount": 4,
     "excerpt": "A measurement protocol for coding query turnaround, using one query as the unit and a release date as the outcome for billing teams.",
-    "thumbnail": "/thumbnails/november-16/how-long-does-a-coding-query-stay-open-before-claim-release.webp",
+    "thumbnail": "/images/research/november-16/how-long-does-a-coding-query-stay-open-before-claim-release.webp",
     "heroImage": "/images/research/november-16/how-long-does-a-coding-query-stay-open-before-claim-release.webp",
     "readingMinutes": 13,
     "keyStats": [
@@ -300,7 +300,7 @@ export const november16ResearchPosts: ResearchPost[] = [
     "publishedAt": "2026-11-16",
     "sourceCount": 4,
     "excerpt": "A measurement protocol for small-balance write-offs, using one write-off entry as the unit and an approval record as the evidence standard.",
-    "thumbnail": "/thumbnails/november-16/how-often-are-small-balances-written-off-without-documented-approval.webp",
+    "thumbnail": "/images/research/november-16/how-often-are-small-balances-written-off-without-documented-approval.webp",
     "heroImage": "/images/research/november-16/how-often-are-small-balances-written-off-without-documented-approval.webp",
     "readingMinutes": 13,
     "keyStats": [
@@ -373,7 +373,7 @@ export const november16ResearchPosts: ResearchPost[] = [
     "publishedAt": "2026-11-16",
     "sourceCount": 4,
     "excerpt": "A measurement protocol for payer escalation timing, using one aged claim as the unit and the first documented escalation as the outcome.",
-    "thumbnail": "/thumbnails/november-16/how-many-days-pass-before-an-aged-claim-is-escalated-to-a-payer.webp",
+    "thumbnail": "/images/research/november-16/how-many-days-pass-before-an-aged-claim-is-escalated-to-a-payer.webp",
     "heroImage": "/images/research/november-16/how-many-days-pass-before-an-aged-claim-is-escalated-to-a-payer.webp",
     "readingMinutes": 13,
     "keyStats": [
@@ -446,7 +446,7 @@ export const november16ResearchPosts: ResearchPost[] = [
     "publishedAt": "2026-11-16",
     "sourceCount": 4,
     "excerpt": "A measurement protocol for underpaid claims, using one adjudicated claim as the unit and the contracted allowed amount as the comparison.",
-    "thumbnail": "/thumbnails/november-16/how-often-do-paid-claims-fall-below-the-contracted-allowed-amount.webp",
+    "thumbnail": "/images/research/november-16/how-often-do-paid-claims-fall-below-the-contracted-allowed-amount.webp",
     "heroImage": "/images/research/november-16/how-often-do-paid-claims-fall-below-the-contracted-allowed-amount.webp",
     "readingMinutes": 13,
     "keyStats": [
