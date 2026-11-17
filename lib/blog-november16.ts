@@ -1,5 +1,5 @@
 import type { BlogPost } from './blog-november5-types';
-export const november16BlogPosts: BlogPost[] = [
+export const november16BlogPosts = [
   {
     "slug": "building-a-patient-statement-schedule-that-survives-returned-mail",
     "title": "Building a patient statement schedule that survives returned mail",
@@ -49,7 +49,8 @@ export const november16BlogPosts: BlogPost[] = [
     },
     "image": "/images/blog/november-16/building-a-patient-statement-schedule-that-survives-returned-mail.webp",
     "published": "2026-11-11",
-    "category": "blog"
+    "category": "blog",
+    "publishedAt": "2026-11-16"
   },
   {
     "slug": "setting-an-eligibility-recheck-routine-for-high-cost-infusion-claims",
@@ -100,7 +101,8 @@ export const november16BlogPosts: BlogPost[] = [
     },
     "image": "/images/blog/november-16/setting-an-eligibility-recheck-routine-for-high-cost-infusion-claims.webp",
     "published": "2026-11-11",
-    "category": "blog"
+    "category": "blog",
+    "publishedAt": "2026-11-16"
   },
   {
     "slug": "running-an-eft-enrollment-cleanup-before-payments-go-paper",
@@ -151,7 +153,8 @@ export const november16BlogPosts: BlogPost[] = [
     },
     "image": "/images/blog/november-16/running-an-eft-enrollment-cleanup-before-payments-go-paper.webp",
     "published": "2026-11-11",
-    "category": "blog"
+    "category": "blog",
+    "publishedAt": "2026-11-16"
   },
   {
     "slug": "creating-a-coding-query-log-that-closes-before-the-claim-drops",
@@ -202,7 +205,8 @@ export const november16BlogPosts: BlogPost[] = [
     },
     "image": "/images/blog/november-16/creating-a-coding-query-log-that-closes-before-the-claim-drops.webp",
     "published": "2026-11-11",
-    "category": "blog"
+    "category": "blog",
+    "publishedAt": "2026-11-16"
   },
   {
     "slug": "setting-a-small-balance-write-off-policy-with-an-approval-trail",
@@ -253,7 +257,8 @@ export const november16BlogPosts: BlogPost[] = [
     },
     "image": "/images/blog/november-16/setting-a-small-balance-write-off-policy-with-an-approval-trail.webp",
     "published": "2026-11-11",
-    "category": "blog"
+    "category": "blog",
+    "publishedAt": "2026-11-16"
   },
   {
     "slug": "building-a-payer-escalation-ladder-for-claims-stuck-past-thirty-days",
@@ -304,7 +309,8 @@ export const november16BlogPosts: BlogPost[] = [
     },
     "image": "/images/blog/november-16/building-a-payer-escalation-ladder-for-claims-stuck-past-thirty-days.webp",
     "published": "2026-11-11",
-    "category": "blog"
+    "category": "blog",
+    "publishedAt": "2026-11-16"
   },
   {
     "slug": "running-a-monthly-underpayment-review-against-contract-terms",
@@ -355,7 +361,8 @@ export const november16BlogPosts: BlogPost[] = [
     },
     "image": "/images/blog/november-16/running-a-monthly-underpayment-review-against-contract-terms.webp",
     "published": "2026-11-11",
-    "category": "blog"
+    "category": "blog",
+    "publishedAt": "2026-11-16"
   },
   {
     "slug": "giving-telehealth-claims-a-place-of-service-check-before-submission",
@@ -406,6 +413,7 @@ export const november16BlogPosts: BlogPost[] = [
     },
     "image": "/images/blog/november-16/giving-telehealth-claims-a-place-of-service-check-before-submission.webp",
     "published": "2026-11-11",
-    "category": "blog"
+    "category": "blog",
+    "publishedAt": "2026-11-16"
   }
-];
+] as unknown as BlogPost[];
