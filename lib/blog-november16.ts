@@ -1,4 +1,3 @@
-import type { BlogPost } from './blog-november5-types';
 export const november16BlogPosts = [
   {
     "slug": "building-a-patient-statement-schedule-that-survives-returned-mail",
@@ -416,4 +415,4 @@ export const november16BlogPosts = [
     "category": "blog",
     "publishedAt": "2026-11-16"
   }
-] as unknown as BlogPost[];
+];
