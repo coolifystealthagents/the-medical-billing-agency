@@ -30,11 +30,13 @@ import { november9Research } from './research-november9';
 import { november10Blog } from './blog-november10';
 import { november10Research } from './research-november10';
 import { november19BlogPosts } from './blog-november19';
+import { november20BlogPosts } from './blog-november20';
 import { november18BlogPosts } from './blog-november18';
 import { november17BlogPosts } from './blog-november17';
 import { november16BlogPosts } from './blog-november16';
 import { november11Blog } from './blog-november11';
 import { november19ResearchPosts } from './research-november19';
+import { november20ResearchPosts } from './research-november20';
 import { november18ResearchPosts } from './research-november18';
 import { november17ResearchPosts } from './research-november17';
 import { november16ResearchPosts } from './research-november16';
@@ -85,6 +87,10 @@ const november19BlogRows = november19BlogPosts.map((entry) => [
   entry.slug, entry.title, entry.service, entry.description, entry.details, entry.image, entry.published,
 ]);
 
+const november20BlogRows = november20BlogPosts.map((entry) => [
+  entry.slug, entry.title, entry.service, entry.description, entry.details, entry.image, entry.published,
+]);
+
 const november18BlogRows = november18BlogPosts.map((entry) => [
   entry.slug, entry.title, entry.service, entry.description, entry.details, entry.image, entry.published,
 ]);
@@ -99,8 +105,8 @@ const november16BlogRows = november16BlogPosts.map((entry) => [
 
 export const site = {
   ...data,
-  blog: [...(november19BlogRows as readonly any[]), ...(november18BlogRows as readonly any[]), ...(november17BlogRows as readonly any[]), ...(november16BlogRows as readonly any[]), ...(november11BlogRows as readonly any[]), ...(november10BlogRows as readonly any[]), ...(november9BlogRows as readonly any[]), ...(november8BlogRows as readonly any[]), ...(november7BlogRows as readonly any[]), ...(november6BlogRows as readonly any[]), ...(november5BlogRows as readonly any[]), ...(november3Blog as readonly any[]), ...(november2Blog as readonly any[]), ...(october28Blog as readonly any[]), ...(october27Blog as readonly any[]), ...october26BlogWithMeta, ...october25Blog, ...october22Blog, ...october12Blog, ...data.blog],
-  research: [...november19ResearchPosts, ...november18ResearchPosts, ...november17ResearchPosts, ...november16ResearchPosts, ...november11Research, ...november10Research, ...november9Research, ...november8Research, ...november7Research, ...november6Research, ...november5Research, ...november3Research, ...november2Research, ...october28Research, ...october27Research, ...october26Research, ...october25Research, ...october22Research, ...october12Research, ...data.research],
+  blog: [...(november20BlogRows as readonly any[]), ...(november19BlogRows as readonly any[]), ...(november18BlogRows as readonly any[]), ...(november17BlogRows as readonly any[]), ...(november16BlogRows as readonly any[]), ...(november11BlogRows as readonly any[]), ...(november10BlogRows as readonly any[]), ...(november9BlogRows as readonly any[]), ...(november8BlogRows as readonly any[]), ...(november7BlogRows as readonly any[]), ...(november6BlogRows as readonly any[]), ...(november5BlogRows as readonly any[]), ...(november3Blog as readonly any[]), ...(november2Blog as readonly any[]), ...(october28Blog as readonly any[]), ...(october27Blog as readonly any[]), ...october26BlogWithMeta, ...october25Blog, ...october22Blog, ...october12Blog, ...data.blog],
+  research: [...november20ResearchPosts, ...november19ResearchPosts, ...november18ResearchPosts, ...november17ResearchPosts, ...november16ResearchPosts, ...november11Research, ...november10Research, ...november9Research, ...november8Research, ...november7Research, ...november6Research, ...november5Research, ...november3Research, ...november2Research, ...october28Research, ...october27Research, ...october26Research, ...october25Research, ...october22Research, ...october12Research, ...data.research],
 };
 
 // cache-bust: 2026-11-11 batch wiring
