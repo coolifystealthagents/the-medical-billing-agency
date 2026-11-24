@@ -33,6 +33,7 @@ import { november19BlogPosts } from './blog-november19';
 import { november20BlogPosts } from './blog-november20';
 import { november21BlogPosts } from './blog-november21';
 import { november23BlogPosts } from './blog-november23';
+import { november24BlogPosts } from './blog-november24';
 import { november22BlogPosts } from './blog-november22';
 import { november18BlogPosts } from './blog-november18';
 import { november17BlogPosts } from './blog-november17';
@@ -42,6 +43,7 @@ import { november19ResearchPosts } from './research-november19';
 import { november20ResearchPosts } from './research-november20';
 import { november21ResearchPosts } from './research-november21';
 import { november23ResearchPosts } from './research-november23';
+import { november24ResearchPosts } from './research-november24';
 import { november22ResearchPosts } from './research-november22';
 import { november18ResearchPosts } from './research-november18';
 import { november17ResearchPosts } from './research-november17';
@@ -102,6 +104,10 @@ const november21BlogRows = november21BlogPosts.map((entry) => [
 ]);
 
 const november23BlogRows = november23BlogPosts.map((entry) => [
+  entry.slug, entry.title, entry.service, entry.description, entry.details, entry.image, entry.published,
+]);
+
+const november24BlogRows = november24BlogPosts.map((entry) => [
   entry.slug, entry.title, entry.service, entry.description, entry.details, entry.image, entry.published,
 ]);
 
