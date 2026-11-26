@@ -1,7 +1,6 @@
 FROM node:22-alpine AS builder
 WORKDIR /app
-COPY source.tar.gz /tmp/source.tar.gz
-RUN tar -xzf /tmp/source.tar.gz -C /app
+COPY . .
 RUN npm ci
 ENV NEXT_TELEMETRY_DISABLED=1
 RUN npm run build
