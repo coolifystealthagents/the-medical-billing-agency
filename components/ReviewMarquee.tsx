@@ -16,9 +16,9 @@ const reviews=[
 export default function ReviewMarquee(){
  const root=useRef<HTMLElement>(null),track=useRef<HTMLDivElement>(null),tween=useRef<gsap.core.Tween|null>(null);
  useGSAP(()=>{const media=gsap.matchMedia();media.add('(prefers-reduced-motion: no-preference)',()=>{tween.current=gsap.to(track.current,{xPercent:-50,duration:90,repeat:-1,ease:'none'});});return()=>media.revert();},{scope:root});
- return <section className="contact-reviews" aria-label="StealthAgents reviews" ref={root} onMouseEnter={()=>tween.current?.pause()} onMouseLeave={()=>{tween.current?.play();}} onFocusCapture={()=>tween.current?.pause()} onBlurCapture={event=>{if(!event.currentTarget.contains(event.relatedTarget))tween.current?.play();}}>
+ return <section className="contact-reviews" aria-label="StealthAgents reviews" ref={root}   onFocusCapture={()=>tween.current?.pause()} onBlurCapture={event=>{if(!event.currentTarget.contains(event.relatedTarget))tween.current?.play();}}>
   <div className="contact-review-heading"><h2>StealthAgents reviews</h2></div>
-  <div className="contact-review-window" tabIndex={0} aria-label="Parent-company reviews. Moving reviews pause on hover or focus."><div className="contact-review-track" ref={track}>{[0,1].map(copy=><div className="contact-review-group" key={copy} aria-hidden={copy===1?true:undefined}>{reviews.map(review=><figure key={review.name}><span className="contact-stars" aria-label="5 out of 5 stars">★★★★★</span><blockquote>{review.quote}</blockquote><figcaption>{review.name}</figcaption></figure>)}</div>)}</div></div>
+  <div className="contact-review-window" tabIndex={0} aria-label="Parent-company reviews. Moving reviews pause on focus."><div className="contact-review-track" ref={track}>{[0,1].map(copy=><div className="contact-review-group" key={copy} aria-hidden={copy===1?true:undefined}>{reviews.map(review=><figure key={review.name}><span className="contact-stars" aria-label="5 out of 5 stars">★★★★★</span><blockquote>{review.quote}</blockquote><figcaption>{review.name}</figcaption></figure>)}</div>)}</div></div>
   <p className="contact-review-source">Parent-company reviews. <a href="https://stealthagents.com/virtual-assistant">Read at StealthAgents</a>.</p>
  </section>;
 }
